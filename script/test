@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -e -u
+
+#uv run pytest test --cov=. --cov-branch --cov-fail-under=90 -cov-report=html
+uv run pytest test --cov=. --cov-branch --cov-report=html

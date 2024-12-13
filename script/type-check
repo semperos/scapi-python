@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -e -u
+
+uv run pyright --ignoreexternal --verifytypes scapi
